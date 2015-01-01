@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "Open Last Download",
+  "description": "This extension opens the last available download.",
+  "version": "0.1",
+  "permissions": ["downloads", "downloads.open"],
+  "background": {
+    "scripts": ["assets/js/background.js"]
+  },
+  "icons": {
+    "128": "./assets/images/icon.png"
+  },
+  "commands": {
+    "open-last-downlaod": {
+      "suggested_key": {
+        "default": "Alt+L"
+      },
+      "description": "Open Last Download"
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+L"
+      }
+    },
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Alt+L"
+      }
+    }
+  }
+}
