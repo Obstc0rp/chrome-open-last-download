@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Chrome Download Helper",
+  "name": "Chrome Download Helper Mini",
   "description": "This extension is a download helper. It opens the last available download or the default download directory.",
   "version": "0.2",
   "permissions": ["downloads", "downloads.open"],
