@@ -1,9 +1,9 @@
 {
 
   "manifest_version": 2,
-  "name": "Open Last Download",
-  "description": "This extension opens the last available download.",
-  "version": "0.1",
+  "name": "Chrome Download Helper",
+  "description": "This extension is a download helper. It opens the last available download or the default download directory.",
+  "version": "0.2",
   "permissions": ["downloads", "downloads.open"],
   "background": {
     "scripts": ["assets/js/background.js"]
@@ -12,21 +12,17 @@
     "128": "./assets/images/icon.png"
   },
   "commands": {
+    "open-download-dir": {
+      "suggested_key": {
+        "default": "Alt+O"
+      },
+      "description": "Open Download Directory"
+    },
     "open-last-downlaod": {
       "suggested_key": {
         "default": "Alt+L"
       },
       "description": "Open Last Download"
-    },
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Alt+L"
-      }
-    },
-    "_execute_page_action": {
-      "suggested_key": {
-        "default": "Alt+L"
-      }
     }
   }
 }
