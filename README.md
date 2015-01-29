@@ -1,9 +1,10 @@
-Chrome Open Last Download
+Chrome Download Helper Mini
 =========================
 
-This is a chrome extension which opens the last available download.
+This is a chrome extension which opens the last available download or the default download directory.
 
 Use
 ---
 
-	Alt+L
+	Alt+L: Opens last download
+	Alt+O: Opens default download directory
